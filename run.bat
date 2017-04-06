@@ -4,7 +4,7 @@ goto norun
 
 :run
 cd gmodds
-call srcds.exe -console
+call srcds.exe -console -game garrysmod +map gm_construct +maxplayers 24 -authkey AUTHKEY +sv_setsteamaccount SERVERACCOUNTID
 exit
 
 :norun
